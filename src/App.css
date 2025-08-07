@@ -19,7 +19,7 @@ html, body {
 .page-cont {
   display: flex;
   height: 100vh;
-
+width: 100%;
 }
 
 .contents-panel {
@@ -124,6 +124,10 @@ html, body {
 .badge-cont {
   display: flex;
   justify-content: center;  
+}
+
+h2, h3, h4 {
+  font-size: 2.5rem;
 }
 
 }
