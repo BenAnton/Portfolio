@@ -12,6 +12,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
   background: var(--primary-color);
+  /*background: linear-gradient(45deg, hsla(221, 39%, 39%, 1) 0%, hsla(222, 47%, 11%, 1) 33%);*/
   color: var(--secondary-color);
   font-family: "inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -81,6 +82,7 @@ width: 100%;
     overflow-x: hidden;
     height: auto;
     width: 100%;
+    align-items: center;
   }
   
   .contents-panel {
@@ -119,6 +121,7 @@ html, body {
   height: auto;
   overflow: auto;
   width: 100%;
+  background: var(--primary-color);
 }
 
 .badge-cont {
@@ -127,7 +130,7 @@ html, body {
 }
 
 h2, h3, h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 }
