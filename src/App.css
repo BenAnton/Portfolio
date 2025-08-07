@@ -79,6 +79,8 @@ html, body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    height: auto;
+    width: 100%;
   }
   
   .contents-panel {
@@ -89,7 +91,7 @@ html, body {
   border-bottom: 1px solid white;
     margin-top: 0;
     padding: 0 0 1rem 0;
-    overflow-y: hidden;
+    overflow-y: visible;
     position: relative;
   }
   
@@ -109,13 +111,14 @@ html, body {
     min-width: 100%;
     justify-content: flex-start;
     padding-inline: 1rem;
- margin-top: 0;
+    margin-top: 0;
     position: relative;
   }
   
 html, body {
   height: auto;
   overflow: auto;
+  width: 100%;
 }
 
 .badge-cont {
