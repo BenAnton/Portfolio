@@ -1,0 +1,53 @@
+.courses-card-flex {
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: white;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.courses-card-flex:hover {
+    opacity: 1;
+    background-color: #101B39;
+}
+
+.courses-card-flex-left {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 30%;
+}
+
+.courses-card-flex-right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.courses-badge-cont {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.courses-title {
+    margin-block: 0;
+    font-weight: 900;
+}
+
+.courses-date {
+    margin-block: 0.1rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .courses-card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,50 @@
+.work-history-card-flex {
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    color: white;
+}
+
+.work-history-card-flex:hover {
+    opacity: 1;
+    background-color: #101B39;
+}
+
+.work-history-card-flex-left {
+    display: flex;
+    align-items: start;
+    width: 30%;
+    justify-content: center;
+
+}
+
+.work-history-card-flex-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-history-title {
+    margin-block: 0;
+}
+
+.work-role {
+    margin-block: 0.1rem;
+}
+
+.work-date {
+    margin-block: 0.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .work-history-card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}

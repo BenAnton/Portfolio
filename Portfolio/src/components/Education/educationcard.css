@@ -1,0 +1,49 @@
+.education-card-flex {
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: white;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.education-card-flex:hover {
+    opacity: 1;
+    background-color: #101B39;
+}
+
+.education-card-flex-left {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 30%;
+}
+
+.education-card-flex-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-title {
+    margin-block: 0;
+}
+
+.education-course {
+    margin-block: 0.1rem;
+}
+
+.education-date {
+    margin-block: 0.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .education-card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
