@@ -50,5 +50,10 @@
         width: 100%;
         text-align: center;
         padding: 0;
+    
+    }
+
+    .courses-badge-cont {
+    justify-content: center;
     }
 }

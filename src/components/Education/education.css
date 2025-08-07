@@ -4,3 +4,9 @@
     flex-direction: column;
     margin-bottom: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .education-cont {
+        gap: 3rem;
+    }
+}

@@ -3,3 +3,9 @@
     flex-direction: column;
     margin-top: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .work-history-cont {
+        gap: 3rem;
+    }
+}
