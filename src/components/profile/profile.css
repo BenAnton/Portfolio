@@ -11,12 +11,7 @@
     opacity: 0.6;
 }
 
-.bold {
-    font-weight: 900;
-    opacity: 1;
-    color: white;
-    font-size: 1.4rem;
-}
+
 
 @media screen and (max-width: 768px) {
     .profile-cont {
