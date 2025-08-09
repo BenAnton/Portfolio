@@ -1,7 +1,7 @@
 .project-img {
     width: 90%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .project-card-flex {
@@ -42,6 +42,16 @@
     font-weight: 900;
 }
 
+.project-card-flex-right-top {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+ }
+
+.github-link {
+    width: 35px;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -66,5 +76,10 @@
         width: 75%;
         text-align: center;
         margin-top: 1rem;
+    }
+
+    .project-card-flex-right-top {
+    margin-inline: auto;
+        
     }
 }

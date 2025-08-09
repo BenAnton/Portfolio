@@ -3,6 +3,7 @@ import { projects} from "../../Data/projects.ts";
 import Badge from "../badge";
 import "./projectcard.css"
 import {motion} from "motion/react"
+import github from "../../../public/github.svg";
 
 function ProjectCard() {
     return (
@@ -24,7 +25,10 @@ function ProjectCard() {
             <img className="project-img" src={project.imgPath} alt={project.name}/> 
                 </div>
                 <div className="PC-flex-right">
-            <h3  className="project-title" key={index}>{project.name}</h3>
+                    <div className="project-card-flex-right-top">
+                        <h3  className="project-title" key={index}>{project.name}</h3>
+                        <a   href={project.link}><img className="github-link" src={github} alt="Github Logo"/></a>
+                    </div>
             <p>{project.description}</p>
                 <div className="badge-cont">
                     {project.makeup.map((makeup: string, i: number) => (

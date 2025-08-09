@@ -1,0 +1,28 @@
+.tech-cont {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-cont:hover {
+    opacity: 1;
+    background-color: #101B39;
+}
+
+.badge-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-title {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-cont {
+        width: 80%;
+        text-align: center;
+        justify-self: center;
+        margin-inline: auto;
+    }
+}

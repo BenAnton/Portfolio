@@ -1,0 +1,28 @@
+.ecl-button {
+    
+    width: auto;
+    background-color: var(--primary-color);
+    border: none;
+    margin-bottom: auto;
+}
+
+.ecl-button:hover {
+ cursor: pointer;
+}
+
+.ecl-logo {
+    background-color: var(--primary-color);
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin-bottom: auto;
+}
+
+.ecl-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    font-weight: 900;
+    opacity: 1;
+}

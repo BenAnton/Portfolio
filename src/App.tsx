@@ -9,6 +9,8 @@ import Contents from './components/Contents/Contents.tsx'
 import github from "../public/github.svg"
 import linkedin from "../public/linkedin.svg"
 import {useState, useEffect} from 'react'
+import Technology from './components/Tech/Technology.tsx'
+import EmailCopyLink from "./components/EmailCopyLink.tsx";
 function App() {
 
     const [activeId, setActiveId] = useState<string>("");
@@ -65,14 +67,17 @@ function App() {
     <Contents activeId={activeId}/>
     <div className="social-cont">
         <a  className="social-a" href="https://github.com/BenAnton?tab=repositories"><img className="social-logo" src={github} alt="Github Logo"/></a>
+        <EmailCopyLink/>
         <a className="social-a" href="https://www.linkedin.com/in/ben-anton/"><img className="social-logo" src={linkedin} alt="linkedIn Logo"/></a>
     </div>
 </aside>
             
             <main className="scroll-panel">
+                
                 <section id="profile">
                     <Profile/>
                 </section>
+                <Technology/>
                 <section id="projects">
                     <Projects/>
                 </section>

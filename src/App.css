@@ -58,11 +58,11 @@ width: 100%;
 .social-logo {
   width: 50px;
   margin-bottom: 15rem;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 p {
-  opacity: 0.7;
+  opacity: 0.8;
  
 }
 
@@ -125,11 +125,14 @@ p {
   
 html, body {
   height: auto;
-  overflow-x: clip;
+  overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
   background: var(--primary-color);
-  
+}
+
+body {
+  position: relative;
 }
 
 .badge-cont {

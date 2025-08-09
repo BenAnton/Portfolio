@@ -4,6 +4,7 @@ export interface Project {
     description: string;
     imgPath: string;
     date: string;
+    link: string;
     
 }
 
