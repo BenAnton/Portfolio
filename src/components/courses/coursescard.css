@@ -56,4 +56,9 @@
     .courses-badge-cont {
     justify-content: center;
     }
+
+    .courses-card-flex:hover {
+        opacity: 0.6;
+        background-color: var(--primary-color);
+    }
 }

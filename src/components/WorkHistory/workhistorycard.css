@@ -48,4 +48,9 @@
         text-align: center;
         padding: 0;
     }
+
+    .work-history-card-flex:hover {
+        opacity: 0.6;
+        background-color: var(--primary-color);
+    }
 }
