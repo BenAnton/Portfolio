@@ -7,5 +7,6 @@
     .projects-cont {
         margin-top: 5rem;
         gap: 3rem;
+        width: 100%;
     }
 }
