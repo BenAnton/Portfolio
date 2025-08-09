@@ -25,4 +25,9 @@
         justify-self: center;
         margin-inline: auto;
     }
+
+    .tech-cont:hover {
+        opacity: 0.6;
+        background-color: var(--primary-color);
+    }
 }
