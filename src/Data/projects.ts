@@ -3,6 +3,7 @@ import workouttracker from "../../public/images/workouttracker.png"
 import homeedventurers from "../../public/images/homeedventurers.png"
 import toptrumps from "../../public/images/toptrumps.png"
 import pshistory from "../../public/images/pshistory.png"
+import crypto from "../../public/images/crypto.png"
 export const projects: Project[] = [
     {
     name: "Workout Tracker",
@@ -12,6 +13,15 @@ export const projects: Project[] = [
     date: "2025",
         link: "https://github.com/BenAnton/Workout-Tracker-Web-App"
 },
+    {
+        name: "Crypto Tracker (Ongoing)",
+        makeup: ["HTML", "CSS", "TypeScript", "Vite", "MongoDb", "React", "Chart.Js"],
+        description: "A MERN stack (MongoDB, Express, React with Vite, Node.js) application that fetches live cryptocurrency data from the CoinGecko API, displaying real-time market prices and trends using Chart.js. Users can simulate buying and selling coins to mirror their own portfolio, track performance over time, and review a full transaction history. No real funds involved — designed purely for portfolio tracking and educational purposes.",
+        imgPath: crypto,
+        date: "2025",
+        link: "https://github.com/BenAnton/Crypto"
+    },
+    
     {
         name: "Home Edventurers",
         makeup: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
