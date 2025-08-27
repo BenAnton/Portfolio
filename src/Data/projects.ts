@@ -14,9 +14,9 @@ export const projects: Project[] = [
         link: "https://github.com/BenAnton/Workout-Tracker-Web-App"
 },
     {
-        name: "Crypto Tracker (Ongoing)",
+        name: "Crypto Tracker",
         makeup: ["HTML", "CSS", "TypeScript", "Vite", "MongoDb", "React", "Chart.Js"],
-        description: "A MERN stack (MongoDB, Express, React with Vite, Node.js) application that fetches live cryptocurrency data from the CoinGecko API, displaying real-time market prices and trends using Chart.js. Users can simulate buying and selling coins to mirror their own portfolio, track performance over time, and review a full transaction history. No real funds involved — designed purely for portfolio tracking and educational purposes.",
+        description: "A full-stack web application for real-time cryptocurrency tracking, with features for portfolio management, buy/sell transaction logging, history export to CSV, light/dark mode, and multi-currency support via live APIs.",
         imgPath: crypto,
         date: "2025",
         link: "https://github.com/BenAnton/Crypto"
