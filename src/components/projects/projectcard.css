@@ -1,7 +1,8 @@
 .project-img {
     width: 90%;
-    height: 100%;
-    object-fit: cover;
+
+    object-fit: contain;
+    margin-bottom: auto;
 }
 
 .project-card-flex {
@@ -27,11 +28,11 @@
 .PC-flex-left {
     display: flex;
     align-items: start;
-    width: 30%;
+    width: 35%;
 }
 
 .PC-flex-right {
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     

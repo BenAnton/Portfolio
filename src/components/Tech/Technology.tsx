@@ -3,7 +3,7 @@ import "./tech.css"
 
 const lang: string[] = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "C#", "Python", "Node.Js"];
 const back: string[] = ["Express", "MongoDB", "PostgreSQL", ".Net Core"];
-const tools: string[] = ["Git/Github", "VSCode", "Rider", "JWT", "Jest", "xUnit", "REST APIs", "Podman/Docker", "Motion"];
+const tools: string[] = ["Git/Github", "VSCode", "Rider", "JWT", "Jest", "xUnit", "REST APIs", "Podman/Docker", "Motion", "Better-Auth", "Prisma"];
 
 function Technology() {
     return (

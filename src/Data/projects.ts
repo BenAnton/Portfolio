@@ -4,7 +4,17 @@ import homeedventurers from "../../public/images/homeedventurers.png"
 import toptrumps from "../../public/images/toptrumps.png"
 import pshistory from "../../public/images/pshistory.png"
 import crypto from "../../public/images/crypto.png"
+import movieDb from "../../public/screenshot2.png"
+
 export const projects: Project[] = [
+    {
+        name: "Movie Database",
+        makeup: ["HTML", "CSS", "TypeScript", "Node", "PostgreSQL", "Better-Auth", "React", "Prisma"],
+        description: "A full-stack PERN (PostgreSQL, Express, React, Node) application built with TypeScript that allows users to track movies with personalized watchlists, favourites, and watched status. Features include secure authentication via better-auth (email/password and Google login), keyword search, filtering by genre, rating, year, and user-specific watch status, as well as client-side pagination and responsive design down to 750px. The app integrates the OMDB API for movie data, supports debounced search input, and includes smooth UI interactions such as animated login forms and loading states. The project demonstrates full-stack development skills, state management in React, database modeling with Prisma, and handling async API requests.",
+        imgPath: movieDb,
+        date: "2025",
+        link: "https://github.com/BenAnton/MovieDB"
+    },
     {
     name: "Workout Tracker",
     makeup: ["HTML", "CSS", "JavaScript", ".Net Core", "PostgreSQL", "JWT Auth", "React", "Jest/XUnit", "Motion"],
