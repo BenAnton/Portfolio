@@ -28,6 +28,12 @@ function ProjectCard() {
                     <div className="project-card-flex-right-top">
                         <h3  className="project-title" key={index}>{project.name}</h3>
                         <a   href={project.link}><img className="github-link" src={github} alt="Github Logo"/></a>
+
+                        {project.liveLink && (
+                            <a  className="link-button" href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                                View Live
+                            </a> 
+                        )}
                     </div>
             <p>{project.description}</p>
                 <div className="badge-cont">

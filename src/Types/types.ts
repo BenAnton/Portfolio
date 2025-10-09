@@ -5,7 +5,7 @@ export interface Project {
     imgPath: string;
     date: string;
     link: string;
-    
+    liveLink?: string;
 }
 
 export interface Course {

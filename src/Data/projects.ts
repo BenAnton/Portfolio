@@ -9,11 +9,12 @@ import movieDb from "../../public/screenshot2.png"
 export const projects: Project[] = [
     {
         name: "Movie Database",
-        makeup: ["HTML", "CSS", "TypeScript", "Node", "PostgreSQL", "Better-Auth", "React", "Prisma"],
-        description: "A full-stack PERN (PostgreSQL, Express, React, Node) application built with TypeScript that allows users to track movies with personalized watchlists, favourites, and watched status. Features include secure authentication via better-auth (email/password and Google login), keyword search, filtering by genre, rating, year, and user-specific watch status, as well as client-side pagination and responsive design down to 750px. The app integrates the OMDB API for movie data, supports debounced search input, and includes smooth UI interactions such as animated login forms and loading states. The project demonstrates full-stack development skills, state management in React, database modeling with Prisma, and handling async API requests.",
+        makeup: ["HTML", "CSS", "TypeScript", "Node", "PostgreSQL", "Better-Auth", "React", "Prisma", "AWS"],
+        description: "A full-stack PERN application built with TypeScript that allows users to track movies with personalized watchlists, favourites, and watched status. Features secure authentication via better-auth (email/password and Google OAuth login), keyword search, filtering by genre/rating/year, and user-specific watch status tracking. Integrates the OMDB API for movie data with debounced search and smooth UI interactions including animated forms and loading states. Deployed on AWS with CloudFront CDN, API Gateway, EC2, RDS PostgreSQL, S3 storage, and Route 53 DNS management. Usage of Prisma ORM and AWS infrastructure.",
         imgPath: movieDb,
         date: "2025",
-        link: "https://github.com/BenAnton/MovieDB"
+        link: "https://github.com/BenAnton/MovieDB",
+        liveLink: "https://moviedb.benanton.online/"
     },
     {
     name: "Workout Tracker",
