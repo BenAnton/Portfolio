@@ -1,12 +1,22 @@
 import type {Project} from "./../Types/types.ts"
 import workouttracker from "../../public/images/workouttracker.png"
-import homeedventurers from "../../public/images/homeedventurers.png"
-import toptrumps from "../../public/images/toptrumps.png"
-import pshistory from "../../public/images/pshistory.png"
+import homeedventurers from "../../public/images/HEscreen.png"
+// import toptrumps from "../../public/images/toptrumps.png"
+// import pshistory from "../../public/images/pshistory.png"
 import crypto from "../../public/images/crypto.png"
 import movieDb from "../../public/screenshot2.png"
+import snakeulator from "../../public/images/snakeulator_screen.png"
 
 export const projects: Project[] = [
+    {
+        name: "Snakulator",
+        makeup: ["Python", "PyGame"],
+        description: "A Python/Pygame project combining classic snake gameplay with math challenges. Players navigate the snake to “eat” the correct answers while avoiding wrong ones, reinforcing arithmetic skills under pressure. Features include dynamic question generation, real-time collision handling, and a responsive score system. This project demonstrates clean object-oriented design, game logic implementation, and interactive UI handling in Python.",
+        imgPath: snakeulator,
+        date: "2025",
+        link: "https://github.com/BenAnton/Snakulator",
+    },
+    
     {
         name: "Movie Database",
         makeup: ["HTML", "CSS", "TypeScript", "Node", "PostgreSQL", "Better-Auth", "React", "Prisma", "AWS"],
@@ -35,26 +45,26 @@ export const projects: Project[] = [
     
     {
         name: "Home Edventurers",
-        makeup: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-        description: "A client-focused web application currently in development. Built with the MERN stack, the project is on hold pending updated requirements due to a shift in client needs. Demonstrates adaptability to changing specifications and client communication.",
+        makeup: ["HTML", "CSS", "TypeScript", "Next.js"],
+        description: "A client-focused web application built with Next.js, TypeScript, and React. Designed to deliver a modern, responsive user experience, the project demonstrates practical client collaboration and adaptability to evolving requirements.",
         imgPath: homeedventurers,
         date: "2025",
-        link: "https://github.com/BenAnton/Home-Edventurers"
+        link: "https://github.com/BenAnton/Home-Ed-v2"
     },
-    {
-        name: "Top-Trumps: NBA",
-        makeup: ["HTML", "CSS", "TypeScript", "React"],
-        description: "A simplified digital version of the classic “Top Trumps” card game, built with React and TypeScript. Implements turn-based gameplay logic, stat comparisons, and dynamic state management. Designed as a learning project to deepen understanding of TypeScript.",
-        imgPath: toptrumps,
-        date: "2025",
-        link: "https://github.com/BenAnton/Top-Trumps"
-    },
-    {
-        name: "CS50x Final Project",
-        makeup: ["HTML", "CSS", "JavaScript", "React"],
-        description: "An interactive web application exploring the history and evolution of a personal hobby. Developed as the capstone for Harvard's CS50 course, the project demonstrates dynamic rendering, responsive design, and client-side routing using React.",
-        imgPath: pshistory,
-        date: "2024",
-        link: "https://github.com/BenAnton/CS50x-Final-Project-PS-History"
-    },
+    // {
+    //     name: "Top-Trumps: NBA",
+    //     makeup: ["HTML", "CSS", "TypeScript", "React"],
+    //     description: "A simplified digital version of the classic “Top Trumps” card game, built with React and TypeScript. Implements turn-based gameplay logic, stat comparisons, and dynamic state management. Designed as a learning project to deepen understanding of TypeScript.",
+    //     imgPath: toptrumps,
+    //     date: "2025",
+    //     link: "https://github.com/BenAnton/Top-Trumps"
+    // },
+    // {
+    //     name: "CS50x Final Project",
+    //     makeup: ["HTML", "CSS", "JavaScript", "React"],
+    //     description: "An interactive web application exploring the history and evolution of a personal hobby. Developed as the capstone for Harvard's CS50 course, the project demonstrates dynamic rendering, responsive design, and client-side routing using React.",
+    //     imgPath: pshistory,
+    //     date: "2024",
+    //     link: "https://github.com/BenAnton/CS50x-Final-Project-PS-History"
+    // },
 ]
