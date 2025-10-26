@@ -46,10 +46,11 @@ export const projects: Project[] = [
     {
         name: "Home Edventurers",
         makeup: ["HTML", "CSS", "TypeScript", "Next.js"],
-        description: "A client-focused web application built with Next.js, TypeScript, and React. Designed to deliver a modern, responsive user experience, the project demonstrates practical client collaboration and adaptability to evolving requirements.",
+        description: "A client-focused web application built with Next.js, TypeScript, and React. Designed to deliver a modern, responsive user experience, the project demonstrates practical client collaboration and adaptability to evolving requirements. Hosted on Vercel with custom domain name",
         imgPath: homeedventurers,
         date: "2025",
-        link: "https://github.com/BenAnton/Home-Ed-v2"
+        link: "https://github.com/BenAnton/Home-Ed-v2",
+        liveLink: "https://www.homeedventurers.com/"
     },
     // {
     //     name: "Top-Trumps: NBA",
